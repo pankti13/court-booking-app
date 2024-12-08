@@ -3,7 +3,7 @@ import Login from "./pages/Login";
 import SignUpPage from "./pages/SignUp";
 import Home from "./pages/Home";
 import { useEffect, useState } from "react";
-
+import AdminPanel from "./pages/AdminPanel";
 
 function App() {
 
@@ -53,6 +53,16 @@ function App() {
                 </div>
             }
           />
+        <Route
+          path="/admin"
+          element={
+            <div className={`${mode}`}>
+              <div className="dark:bg-black dark:text-white">
+                <AdminPanel />
+              </div>
+            </div>
+          }
+        />
       </Routes>
     </div>
   );
