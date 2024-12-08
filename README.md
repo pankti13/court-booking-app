@@ -1,5 +1,7 @@
-# Admin Panel Application
-This repository contains a React-based Admin Panel application. The Admin Panel allows users to manage sports centres and their associated sports. It provides an intuitive interface to add new centres, associate sports with existing centres, and view all centres with their respective sports.
+### Name: Pankti Prafulbhai Salvi
+### Enrolment Number : IIT2021134
+# Court Booking Application
+This repository contains a React-based Court Booking application. The Court Booking allows users to manage sports centres and their associated sports. It provides an intuitive interface to add new centres, associate sports with existing centres, and view all centres with their respective sports.
 ## Features
 - Dashboard View: Displays all centres and their associated sports.
 - Centre Management: Allows users to add new sports centres.
